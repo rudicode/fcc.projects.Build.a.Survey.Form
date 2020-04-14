@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <link rel="stylesheet" href="css/normalize.css" >
+  <title>Tribute Page | FCC project</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <style>
+    body {
+      background-image: url('assets/background-cartoon-sky-with-clouds.jpg');
+    }
+  </style>
+  <h1 id="title">Title</h1>
+  <p id="description">Homer Survey</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name <br>
+      <input id="name" type="text" placeholder="Homer Simpson" required>
+    </label><br>
+    <label id="email-label" for="email">email <br>
+      <input id="email" type="email" placeholder="homer@springfieldnuclear.com" required>
+    </label><br>
+    <label id="number-label" for="number">How many doughnuts do you eat at one sitting. <br>
+      <input id="number" type="number" placeholder="1" min="1" max="4" value="1" required>
+    </label>
+    <label for="dropdown">Favorite ice cream flavor:
+      <!-- <input list="survey-form" id="dropdown" name="ice-cream-choice" /> -->
+
+      <select name="" id="dropdown">
+        <option value="Chocolate">Chocolate</option>
+        <option value="Coconut">Coconut</option>
+        <option value="Mint">Mint</option>
+        <option value="Strawberry">Strawberry</option>
+        <option value="Vanilla">Vanilla</option>
+      </select>
+    </label>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+
+  <script src="assets/bundle.js"></script>
+</body>
+
+</html>
