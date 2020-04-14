@@ -10,86 +10,97 @@
 </head>
 
 <body>
-  <h1 id="title">Homer's Survey</h1>
-  <p id="description">Homer has to fill out a survey for his boss <a href="https://simpsons.fandom.com/wiki/Waylon_Smithers,_Jr.">Waylon Smithers</a>. But he is too busy having a Duff at Moe's bar. He will be forever thankful if you can fill in the
-    form for him.</p>
+  <div class="wrapper rounded-corners">
 
-  <form id="survey-form" action="http://example.com" method="POST">
-    <label id="name-label" for="name">Name
-      <input id="name" type="text" name="name" placeholder="Homer Simpson" required>
-    </label><br>
-    <label id="email-label" for="email">email
-      <input id="email" type="email" name="email" placeholder="homer@springfieldnuclear.com" required>
-    </label><br>
-    <label id="number-label" for="number">How many doughnuts do you eat at one sitting.
-      <input id="number" type="number" name="number-of-doughnuts" placeholder="1" min="1" max="4" value="1" required>
-    </label><br>
-    <label for="dropdown">Favorite ice cream flavor:
-      <select name="ice-cream-flavor" id="dropdown">
-        <option value="Chocolate">Chocolate</option>
-        <option value="Coconut">Coconut</option>
-        <option value="Mint">Mint</option>
-        <option value="Strawberry">Strawberry</option>
-        <option value="Vanilla">Vanilla</option>
-      </select>
-    </label><br><br>
-    <fieldset id="age-group">
-      <legend>Select your age group.</legend>
-      <label for="age-group-1">
-        <input id="age-group-1" type="radio" name="age-group" value="1"> Under 18
-      </label><br>
-      <label for="age-group-2">
-        <input id="age-group-2" type="radio" name="age-group" value="2"> 18-29
-      </label><br>
-      <label for="age-group-3">
-        <input id="age-group-3" type="radio" name="age-group" value="3"> 30-45
-      </label><br>
-      <label for="age-group-4">
-        <input id="age-group-4" type="radio" name="age-group" value="4"> 46-64
-      </label><br>
-      <label for="age-group-5">
-        <input id="age-group-5" type="radio" name="age-group" value="5"> 65+
-      </label><br>
-    </fieldset><br>
+    <h1 id="title">Homer's Survey</h1>
+    <p id="description">Homer has to fill out a survey for his boss <a href="https://simpsons.fandom.com/wiki/Waylon_Smithers,_Jr.">Waylon Smithers</a>. But he is too busy having a Duff at Moe's bar. He will be forever thankful if you can fill in the
+      form for him.</p>
 
-    <fieldset id="pets">
-      <legend>Which pets did you have in the past.</legend>
-      <label for="pet-cat">
-        <input id="pet-cat" type="checkbox" name="pets" value="cat"> Cat
+    <form id="survey-form" action="http://example.com" method="POST">
+      <label id="name-label" for="name">Name
+        <input id="name" type="text" name="name" placeholder="Homer Simpson" required>
       </label><br>
-      <label for="pet-dog">
-        <input id="pet-dog" type="checkbox" name="pets" value="dog"> Dog
-      </label><br>
-      <label for="pet-fish">
-        <input id="pet-fish" type="checkbox" name="pets" value="fish"> Fish
-      </label><br>
-      <label for="pet-hamster">
-        <input id="pet-hamster" type="checkbox" name="pets" value="hamster"> Hamster
-      </label><br>
-      <label for="pet-guinea-pig">
-        <input id="pet-guinea-pig" type="checkbox" name="pets" value="guinea-pig"> Guinea Pig
-      </label><br>
-      <label for="pet-wolf">
-        <input id="pet-wolf" type="checkbox" name="pets" value="wolf"> Wolf
-      </label><br>
-      <label for="pet-ender-dragon">
-        <input id="pet-ender-dragon" type="checkbox" name="pets" value="ender-dragon"> Ender Dragon
-      </label><br>
-      <label for="pet-turtle">
-        <input id="pet-turtle" type="checkbox" name="pets" value="turtle"> Turtle
-      </label><br>
-      <label for="pet-other">
-        <input id="pet-other" type="checkbox" name="pets" value="other"> Other (specify in comment section below.)
-      </label><br>
-    </fieldset>
+      <label id="email-label" for="email">Email
+        <input id="email" type="email" name="email" placeholder="homer@springfieldnuclear.com" required>
+      </label><br><br>
+      <label id="number-label" for="number">How many doughnuts do you eat at one sitting.
+        <input id="number" type="number" name="number-of-doughnuts" placeholder="1" min="1" max="4" value="1" required>
+      </label><br><br>
+      <label for="dropdown">Favorite ice cream flavor:
+        <select name="ice-cream-flavor" id="dropdown">
+          <option value="Chocolate">Chocolate</option>
+          <option value="Coconut">Coconut</option>
+          <option value="Mint">Mint</option>
+          <option value="Strawberry">Strawberry</option>
+          <option value="Vanilla">Vanilla</option>
+        </select>
+      </label><br><br>
+      <fieldset id="age-group" class="rounded-corners">
+        <legend>Select your age group.</legend>
+        <label for="age-group-1">
+          <input id="age-group-1" type="radio" name="age-group" value="1"> Under 18
+        </label><br>
+        <label for="age-group-2">
+          <input id="age-group-2" type="radio" name="age-group" value="2"> 18-29
+        </label><br>
+        <label for="age-group-3">
+          <input id="age-group-3" type="radio" name="age-group" value="3"> 30-45
+        </label><br>
+        <label for="age-group-4">
+          <input id="age-group-4" type="radio" name="age-group" value="4"> 46-64
+        </label><br>
+        <label for="age-group-5">
+          <input id="age-group-5" type="radio" name="age-group" value="5"> 65+
+        </label><br>
+      </fieldset><br>
 
+      <fieldset id="pets" class="rounded-corners">
+        <legend>Which pets did you have in the past.</legend>
+        <label for="pet-cat">
+          <input id="pet-cat" type="checkbox" name="pets" value="cat"> Cat
+        </label><br>
+        <label for="pet-dog">
+          <input id="pet-dog" type="checkbox" name="pets" value="dog"> Dog
+        </label><br>
+        <label for="pet-fish">
+          <input id="pet-fish" type="checkbox" name="pets" value="fish"> Fish
+        </label><br>
+        <label for="pet-hamster">
+          <input id="pet-hamster" type="checkbox" name="pets" value="hamster"> Hamster
+        </label><br>
+        <label for="pet-guinea-pig">
+          <input id="pet-guinea-pig" type="checkbox" name="pets" value="guinea-pig"> Guinea Pig
+        </label><br>
+        <label for="pet-wolf">
+          <input id="pet-wolf" type="checkbox" name="pets" value="wolf"> Wolf
+        </label><br>
+        <label for="pet-ender-dragon">
+          <input id="pet-ender-dragon" type="checkbox" name="pets" value="ender-dragon"> Ender Dragon
+        </label><br>
+        <label for="pet-turtle">
+          <input id="pet-turtle" type="checkbox" name="pets" value="turtle"> Turtle
+        </label><br>
+        <label for="pet-other">
+          <input id="pet-other" type="checkbox" name="pets" value="other"> Other (specify in comment section below.)
+        </label><br>
+      </fieldset>
+
+      <br><br>
+      <label for="comments">Additional comments:</label><br>
+      <!-- <textarea id="comments" name="comments" rows="5" cols="40"></textarea> -->
+      <textarea id="comments" class="rounded-corners" name="comments" rows="5"></textarea>
+      <br><br />
+      <div class="buttonHolder">
+        <button id="submit" type="submit">Submit</button>
+      </div>
+    </form>
     <br><br>
-    <label for="comments">Additional comments:</label><br>
-    <textarea id="comments" name="comments" rows="5" cols="40"></textarea>
-    <button id="submit" type="submit">Submit</button>
-  </form>
+    <footer>
+      copyleft 2020
+    </footer>
 
-  <script src="assets/bundle.js"></script>
+    <script src="assets/bundle.js"></script>
+  </div>
 </body>
 
 </html>

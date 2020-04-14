@@ -1,3 +1,38 @@
 body {
   background-image: url('../assets/background-cartoon-sky-with-clouds.jpg');
 }
+
+.wrapper {
+  background-color: rgba(0, 0, 255, 0.2);
+  border: 1px solid lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  width: 500px;
+}
+
+button {
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
+#comments {
+  width: 100%;
+}
+
+.buttonHolder {
+  text-align: center;
+}
