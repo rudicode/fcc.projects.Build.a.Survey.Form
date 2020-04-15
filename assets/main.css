@@ -1,5 +1,7 @@
 body {
   background-image: url('../assets/background-cartoon-sky-with-clouds.jpg');
+  font-family: 'Raleway', sans-serif;
+  color: black;
 }
 
 .wrapper {
@@ -13,10 +15,6 @@ body {
   width: 500px;
 }
 
-button {
-  border-radius: 20px;
-}
-
 footer {
   text-align: center;
 }
@@ -26,7 +24,7 @@ h1 {
 }
 
 .rounded-corners {
-  border-radius: 10px;
+  border-radius: 6px;
 }
 
 #comments {
